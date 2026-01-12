@@ -38,7 +38,7 @@ Kind Body ~
 This kind expects action data having only one field "command".
 
     {command}
-        (string)
+        (string) The Ex command without a leading ":".
 
 
 ==============================================================================
