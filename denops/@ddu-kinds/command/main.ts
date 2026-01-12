@@ -75,6 +75,11 @@ export class Kind extends BaseKind<Params> {
       await fn.feedkeys(denops, `:${action.command}`, "n");
       return Promise.resolve(ActionFlags.None);
     },
+    help: async ({ denops, items }: ActionArguments<Params>) => {
+      const action = items[0]?.action as ActionData;
+      await denops.cmd(`help :${action.command}`);
+      return Promise.resolve(ActionFlags.None);
+    },
   };
 
   override async getPreviewer(

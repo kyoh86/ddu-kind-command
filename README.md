@@ -3,4 +3,4 @@
 Ex-Command kind for ddu.vim
 
 This kind is used by ddu-source-command. It also provides help preview for
-commands in ddu preview windows.
+commands in ddu preview windows, and a help action to open the help.

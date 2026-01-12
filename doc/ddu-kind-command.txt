@@ -50,6 +50,10 @@ Kind Actions ~
 edit
         Put the command in command line to edit.
 
+                                                *ddu-kind-command-action-help*
+help
+        Open help for the command.
+
 ==============================================================================
 Preview ~
                                                     *ddu-kind-command-preview*
