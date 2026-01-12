@@ -10,6 +10,7 @@ Introduction                          |ddu-kind-command-introduction|
 Install                               |ddu-kind-command-install|
 Kind Body                             |ddu-kind-command-body|
 Kind Actions                          |ddu-kind-command-actions|
+Preview                               |ddu-kind-command-preview|
 Examples                              |ddu-kind-command-examples|
 
 
@@ -48,6 +49,15 @@ Kind Actions ~
                                                 *ddu-kind-command-action-edit*
 edit
         Put the command in command line to edit.
+
+==============================================================================
+Preview ~
+                                                    *ddu-kind-command-preview*
+
+This kind provides preview contents for |ddu-ui-ff| and similar UIs.
+It looks up help tags for ":{command}" from runtimepath and shows the matching
+help file in the preview window. If a help tag is not found, preview is
+disabled for the item.
 
 
 ==============================================================================
